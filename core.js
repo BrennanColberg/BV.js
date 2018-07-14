@@ -14,7 +14,7 @@ function draw(){
 	
 	let index = frameCount;
 	
-	fill(calcHue(index), 1, 1, 0.1);
+	fill(calcHue(index), 1, 1, 0.12);
 	noStroke();
 	ellipse(mouseX, mouseY, 30, 30);
 }
